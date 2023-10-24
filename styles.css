@@ -1,0 +1,70 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: black; /* Cor de fundo preta */
+    color: white; /* Cor do texto do corpo */
+}
+
+header {
+    background-color: #01B9D0; /* Cor de fundo do cabeçalho */
+    color: white; /* Cor do texto do cabeçalho */
+    text-align: center;
+    padding: 20px 0;
+}
+
+header h1 {
+    margin: 0;
+}
+
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.verse-container {
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+#verse {
+    font-weight: normal; /* Remover o negrito do texto do versículo */
+    color: white; /* Cor do texto do versículo (branco) */
+    white-space: pre-line; /* ou pre-wrap */
+    text-align: left; /* Alinhar com o canto esquerdo */
+}
+
+.verse-info {
+    font-weight: bold;
+    color: #01B9D0; /* Cor do texto da informação do versículo */
+    text-align: right; /* Alinhar com o canto direito */
+    margin-top: 10px; /* Espaçamento superior */
+}
+
+footer {
+    background-color: #01B9D0; /* Cor de fundo do rodapé */
+    color: white; /* Cor do texto do rodapé */
+    text-align: center;
+    padding: 10px 0;
+}
+
+.instagram {
+    color: white; /* Cor do texto do Instagram em branco */
+    text-decoration: none; /* Remover sublinhado padrão de links */
+}
+
+.instagram:hover {
+    text-decoration: underline; /* Adicionar sublinhado quando o mouse estiver sobre o link */
+}
+
+.instagram-link {
+    color: white; /* Cor do texto do Instagram em branco */
+    text-decoration: none; /* Remover sublinhado padrão de links */
+    display: inline-block; /* Tornar o ícone e o nome de usuário em linha */
+}
+
+.instagram-link:hover .fab {
+    text-decoration: underline; /* Adicionar sublinhado quando o mouse estiver sobre o link */
+}
